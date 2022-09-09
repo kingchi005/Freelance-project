@@ -1,0 +1,51 @@
+		*{
+			font-family: tahoma;
+			box-sizing: border-box;
+		}
+		main{
+			border: solid 3px #111;
+			padding: 15px;
+			padding-right: 20px;
+
+		}
+		.table{
+			width: 100%;
+
+		}
+		#addnew span{
+			position: relative;
+			right: 5px;
+			top: -20px;
+			vertical-align: middle;
+		}
+		#add{
+			border: none;
+			background: rgba(0, 0, 0, 0);
+			position: relative;
+			right: 0;
+			cursor: pointer;
+		}
+		.table thead{
+			text-align: center;
+			vertical-align: top;
+			height: 30px;
+		}
+		.table tbody tr td input{
+			width: 95%;
+			padding: 5px;
+			text-align: center;
+			margin: 2px;
+			border: solid 3px #111;
+		}
+		#submit{
+			position: relative;
+			width: 80px;
+			left: calc(100% - 80px);
+			margin-top: 50px;
+			border: none;
+			padding: 10px 5px;
+			background: #5f5;
+			color: #fff;
+			font-size: 20px;
+			cursor: pointer;
+		}
